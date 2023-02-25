@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header-title.css">
   <link rel="stylesheet" href="./css/button.css">
   <link rel="stylesheet" href="./css/records.css">
   <link rel="stylesheet" href="./css/modal.css">
@@ -21,7 +20,7 @@
     <h1 class="header-title">Cadastro de Clientes</h1>
   </header>
   <main>
-    <button type="button" class="button blue">Cadastrar Clientes</button>
+    <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Clientes</button>
     <table class="records">
       <thead>
         <tr>
@@ -75,11 +74,11 @@
         </tr>
       </tbody>
     </table>
-    <div class="modal">
+    <div class="modal" id="modal">
       <div class="modal-content">
         <header class="modal-header">
           <h2>Novo Cliente</h2>
-          <span class="modal-close">&#10006;</span>
+          <span class="modal-close" id="modalClose">&#10006;</span>
         </header>
         <form class="modal-form">
           <input type="text" class="modal-field" placeholder="Nome do cliente">
@@ -95,8 +94,9 @@
     </div>
   </main>
   <footer>
-    footer
+    Copyright &copy; Rodrigo Sousa
   </footer>
+  <script src="./js/main.js" defer></script>
 </body>
 
 </html>

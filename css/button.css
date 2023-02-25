@@ -23,6 +23,26 @@
 }
 
 .button.excluir{
-  background-color: tomato;
+  background-color: #ff4949;
 
+}
+
+@media(max-width:480px){
+  .button.mobile{
+    color:transparent;
+    font-size: 0;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    top: 90vh;
+    left: 80vw;
+  }
+  .button.mobile::before{
+    content: "+";
+    color:#000;
+    font-size: 2rem;
+    width:100%;
+    height:100%;
+  }
 }
