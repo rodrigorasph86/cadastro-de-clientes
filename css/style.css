@@ -4,17 +4,19 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-color: #0c0478;
-  --secundary-color:#e8f0f5;
-  --shadow-color:#e1dce9;
+  --primary-color: #005346;
+  --secundary-color:#bfdad7;
+  --shadow-color:#76a79b;
 }
 
 body {
+  background-color: #f2f5f4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: 'karla', sans-serif;
   position: relative;
+  
 }
 
 header {
@@ -27,7 +29,7 @@ header {
 }
 .header-title {
   color: #FFF;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 
@@ -41,6 +43,7 @@ main{
   padding: 50px;
   box-shadow: 2px 2px 10px var(--shadow-color);
   gap: 20px;
+  
 }
 
 footer {

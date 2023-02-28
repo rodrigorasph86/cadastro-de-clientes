@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/button.css">
   <link rel="stylesheet" href="./css/records.css">
   <link rel="stylesheet" href="./css/modal.css">
+  <script src="https://kit.fontawesome.com/82bdccf35d.js" crossorigin="anonymous"></script>
   <title>Cadastro de Clientes</title>
 </head>
 
@@ -32,46 +33,7 @@
         </tr>
       </thead>
       <tbody>
-        <!--<tr>
-          <td>Maria</td>
-          <td>maria@gmail.com</td>
-          <td>62998071701</td>
-          <td>Goiania</td>
-          <td>
-            <button type="button" class="button editar">Editar</button>
-            <button type="button" class="button excluir">Excluir</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Rodrigo</td>
-          <td>rodrigo@gmail.com</td>
-          <td>62998071701</td>
-          <td>Goiania</td>
-          <td>
-            <button type="button" class="button editar">Editar</button>
-            <button type="button" class="button excluir">Excluir</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Andre</td>
-          <td>andre@gmail.com</td>
-          <td>62998071701</td>
-          <td>Goiania</td>
-          <td>
-            <button type="button" class="button editar">Editar</button>
-            <button type="button" class="button excluir">Excluir</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Embaixador</td>
-          <td>Samuel@gmail.com</td>
-          <td>62998071701</td>
-          <td>Goiania</td>
-          <td>
-            <button type="button" class="button editar">Editar</button>
-            <button type="button" class="button excluir">Excluir</button>
-          </td>
-        </tr> -->
+
       </tbody>
     </table>
     <div class="modal" id="modal">
@@ -82,14 +44,14 @@
         </header>
         <form class="modal-form" id="form">
 
-          <input type="text" id="nome" class="modal-field" placeholder="Nome do cliente" required>
+          <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do cliente" required>
           <input type="email" id="email" class="modal-field" placeholder="E-mail do cliente" required>
           <input type="text" id="celular" class="modal-field" placeholder="Celular do cliente" required>
           <input type="text" id="cidade" class="modal-field" placeholder="Cidade do cliente" required>
         </form>
         <footer class="modal-footer">
-          <button class="button editar" id="salvar">Salvar</button>
-          <button class="button blue" id="cancelar">Cadastrar</button>
+          <button class="button editar" id="salvar"><i class="fa-regular fa-floppy-disk"></i></button>
+          <button class="button blue" id="cancelar"><i class="fa-solid fa-xmark"></i></button>
         </footer>
       </div>
     </div>

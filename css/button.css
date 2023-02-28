@@ -11,19 +11,19 @@
 }
 
 .button.blue{
-  background-color: #1FB6FF;
+  background-color: #336162;
 }
 
 .button:hover{
-  box-shadow: inset 300px 0 0 #00000055;
+  box-shadow: inset 300px 0 0 #eaefed55;
 }
 
 .button.editar {
-  background-color: yellowgreen;
+  background-color: rgb(8, 73, 28);
 }
 
 .button.excluir{
-  background-color: #ff4949;
+  background-color: #640c0c;
 
 }
 
